@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="styles/style2.css" media="all" />
+        <script src="js/jquery.js"></script>
+        <script src="js/app.js"></script>
+        <title>ToDo</title>
+    </head>
+
+    <body>
+        <section class="wrapper">
+            <header ><h1 style="background:transparent;">Add your tasks</h1></header>
+        <!-- content -->
+            <div class="ToDo">
+                <form action="#" spellcheck='false'style="background:transparent;">
+                <!-- <label for="task-input">Type</label> -->
+                    <input type="text" id="task-input" placeholder='what needs to be done?' class="add" />
+                    <input type="submit" id="task-submit" value="+" class="add-btn"/>
+                </form>
+                <ul class='task-list'></ul>
+                <div class="bottom">
+                    <div class="progress-bar">
+                        <div class="progress-status">
+                            <p><span class='tasks-left'>0</span> of <span class='tasks-total'>0</span> tasks done</p>
+                        </div>
+                    </div>
+                    <a href='#' class="remove-checked"><span>Remove checked</span></a>
+                </div>
+            </div>
+        <!-- EO content -->
+            <footer>
+                <p>Created by: <a href='https://github.com/Edifear/ToDoList/'>Edifear</a></p>
+                <p>Designed by: <span>Serafim</span></p>
+            </footer>
+        </section>
+    </body>
+    
+</html>
