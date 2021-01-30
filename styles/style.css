@@ -1,0 +1,180 @@
+body
+{
+  color:white;
+  border-style: none;
+  text-align: center;
+  font-family: 'DM Mono', monospace;  
+  background: linear-gradient(45deg, #000000, #230b61);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 15s ease infinite;
+          animation: gradient 15s ease infinite;
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h3 {
+text-align: center;
+  margin: 0 15px 15px 15px;
+  font-size: 16px;
+}
+
+h5 {
+  text-align: center;
+  margin: 0 15px 15px 15px;
+  font-size: 22px;
+  color: #f7f2f2;
+  text-shadow:white;
+}
+
+h4 {
+text-align: center;
+  margin: 5px;
+  color: whitesmoke;
+  font-size: 13px;
+}
+
+.hidden {
+  display: none;
+}
+
+.header {
+  padding: 2%;
+  text-align: center;
+}
+
+.portal_logo {
+
+    height: 100px;
+    width: 100px;
+    /*align-self: center;*/
+}
+
+.user {
+  text-align: center;
+  color: white;
+}
+
+.buttons img {
+  height: 35px;
+  width: 35px;
+  padding: 4px 4px;
+  position: relative;
+  top: 5px;
+}
+
+.buttons-container {
+  width: 500px;
+  height: 200px;
+  background-size: 100%; 
+}
+
+.buttons {
+  margin: 0;
+  list-style: none;
+  padding-top: 35px;
+}
+
+.buttons a {
+  font: 15px DM Mono, monospace, 
+  color: Black;
+  text-decoration: none;
+  display: block;
+  line-height: 40px;
+}
+
+.buttons>li {
+  position: relative;
+  left: 0.5px;
+  float: left;
+  width: 54px;
+}
+
+.buttons>li:hover {
+  border-radius: 20%;
+  background-color: #d9d9d9;
+  transition: background-color 0.2s;
+}
+
+.buttons li:hover>ul {
+  display: inline;
+  height: auto;
+  opacity: 1;
+}
+
+.dropdown-content {
+
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 160px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+
+.dropdown-content>li {
+  position: relative;
+  height: 40px;
+  background-color: white;
+  transition: background-color 0.2s;
+}
+
+.dropdown-content>li:hover {
+  background-color: #d9d9d9;
+  transition: background-color 0.2s;
+}
+
+.second-dropdown-content {
+  position: absolute;
+  top: 0;
+  right: -120px;
+  width: 120px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: opacity linear 0.15s;
+}
+
+.second-dropdown-content>li {
+  height: 40px;
+  background-color: white;
+}
+
+.second-dropdown-content>li:hover {
+  background-color: #d9d9d9;
+  transition: background-color 0.2s;
+}
+
+.show {
+  display: block;
+}
