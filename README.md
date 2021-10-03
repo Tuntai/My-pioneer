@@ -2,6 +2,9 @@
 A chrome extension for easy resource and time management, with the option of an amazing to-do list to organize taskas, track progress and a timer to limit breaks! <br>
 **:1st_place_medal: Winner at Technex Hackathon'21 organized by St. Vincent Pallotti College of Engineering & Technology! :partying_face:** <br>
 
+
+
+### This change is minor and I am just trying out one thing!
 ## Features :sparkles:
 - :heavy_check_mark: Your One stop resource Manager :video_camera: :newspaper: 👩🏻‍💻
 - :heartpulse: Keep all your favorite things at one place and access them simply in one click!
